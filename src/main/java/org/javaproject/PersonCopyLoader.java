@@ -17,9 +17,9 @@ import java.util.Random;
 public class PersonCopyLoader {
 
     
-    private static final String JDBC_URL = "jdbc:postgresql://localhost:5432/your_db";
-    private static final String DB_USER = "your_user";
-    private static final String DB_PASS = "your_password";
+    private static final String JDBC_URL = "jdbc:postgresql://localhost:5432/java_faker";
+    private static final String DB_USER = "postgres";
+    private static final String DB_PASS = "123";
     private static final long TOTAL_RECORDS = 10_000_000L;
 
     
