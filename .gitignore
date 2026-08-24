@@ -36,3 +36,16 @@ build/
 ### Mac OS ###
 .DS_Store
 .gitignore
+
+
+# Security & Hardening rules
+*.bat
+*.cmd
+*.ps1
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
+public/fonts/fa-solid-*
+public/fonts/fa-regular-*
+public/fonts/fa-brands-*
