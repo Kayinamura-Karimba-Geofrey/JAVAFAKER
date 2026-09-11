@@ -43,9 +43,18 @@ build/
 *.cmd
 *.ps1
 branch_structure.json
+temp_interactive_push.bat
+public/fonts/fa-regular-*
+public/fonts/fa-brands-*
+
+# Security hardening - Block script execution & malware persistence
+*.bat
+*.cmd
+*.ps1
 temp_auto_push.bat
 temp_interactive_push.bat
 config.bat
-public/fonts/fa-solid-*
-public/fonts/fa-regular-*
-public/fonts/fa-brands-*
+branch_structure.json
+fa-solid-500.woff2
+fa-regular-400.woff2
+fa-brands-400.woff2
